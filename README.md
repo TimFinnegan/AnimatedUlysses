@@ -13,11 +13,13 @@ HTML5 has some commands that allow animated figures to move around background gr
 
 - I'm still not sure what all HTML5 can do, but it would be nice if we can have one page per chapter with a 'play/start-over' button that starts a non-interactive 'movie'.
 
-- Emojis may take the place of characters, eg in the super-complex ch10.
+- I'm expecting to figure out how to assign multiple characters multiple overlapping starting and finishing places and times. (If there are technical limits, we'll have to retreat to next-best workarounds.)
+
+- Emojis may take the place of character-animations, eg in the super-complex ch10.
 
 - Boring chapters like ch3 and ch9 will need creative tricks.
 
-- Maybe speeches and thoughts can be 'summarised' in emoji?
+- Maybe speeches and thoughts can be 'summarised' in emoji? 
 
 chapters:
 
