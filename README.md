@@ -5,6 +5,8 @@ This project is an unexpected spinoff of a collection of platform-ideas for simu
 
 HTML5 has some commands that allow animated figures to move around background graphics, so it seems pretty simple to animate the basic paths of the main figures in Ulysses. Without using any javascript code, we should be able to evolve shared and/or customised animated illustrations.
 
+I'm not consistently syncing sheet3.html here with http://fwpages.neocities.org/sheet3.html (i use neocities instead of blogspot because editing the css is easier)
+
 - The backgrounds will try to offer accurate proportions, hopefully about 600px wide.
 
 - Characters believed to be within the background can be included even if the text hasn't mentioned them yet.
@@ -19,7 +21,7 @@ HTML5 has some commands that allow animated figures to move around background gr
 
 - Boring chapters like ch3 and ch9 will need creative tricks.
 
-- Maybe speeches and thoughts can be 'summarised' in emoji? 
+- Maybe speeches and thoughts can be 'summarised' in emoji? (requiring lots of new animations)
 
 chapters:
 
