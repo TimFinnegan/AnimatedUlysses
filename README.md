@@ -9,26 +9,26 @@ I'm not consistently syncing sheet3.html here with http://fwpages.neocities.org/
 
 - The backgrounds will try to offer accurate proportions, hopefully about 600px wide.
 
-- Characters believed to be within the background can be included even if the text hasn't mentioned them yet.
+- Characters and objects believed to be within the background can be included even if the text hasn't mentioned them yet.
 
-- Character-animation is via 'sprite sheets'. (Bloom looks a lot like Mario, conveniently.)
+- Character-animation should eventually be via 'sprite sheets'. (Bloom looks a lot like Mario, conveniently.) Early drafts may cheat and slide around still figures.
 
-- I'm still not sure what all HTML5 can do, but it would be nice if we can have one page per chapter with a 'play/start-over' button that starts a non-interactive 'movie'.
+- I don't think HTML5 conveniently allows one page per chapter, instead figure one page per scene: transitions between indoors and outdoors will normally require moving to a new page. Each page needs 'play/pause/start-over' buttons that start the (non-interactive) 'movie'.
 
 - I'm expecting to figure out how to assign multiple characters multiple overlapping starting and finishing places and times. (If there are technical limits, we'll have to retreat to next-best workarounds.) 'Animation-delay' sets a starting time and 'animation-duration' calculates an ending time...? But every spritesheet has to be treated as completely separate/independent? And kept invisible before and after its bit?
 
 - But the 'alternate' modifier is useless because whenever our characters reverse direction they have to switch to a different spritesheet...
 
-- So each chapter has to be broken down into a set of 'independent' subpaths for each character, which then run 'simultaneously'?
+- So each scene has to be broken down into a set of 'independent' subpaths for each character, which then run 'simultaneously'?
 
 - Emojis may supplement character-animations, eg in the super-complex ch10.
 
-- Boring chapters like ch3 and ch9 will need creative tricks.
+- Boring chapters like ch3 and ch9 will need creative tricks. I'm thinking of embedding characters' thoughts as emoji pre-fixed to the background maps near where they'll be thought.
 
 - Maybe speeches and thoughts can be 'summarised' in emoji? (requiring lots of new animations) we needn't try to make them full translations, just suggestive hits wherever possible
 
 
-*chapters:*
+*chapters and scenes:*
 
 1: tower cross section and cliff path
 
