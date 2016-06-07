@@ -5,61 +5,44 @@
     <title>Animated Ulysses ch6a</title>
  <style>
 
-.cat1 {
-    width: 32px;
-    height: 32px;
-    background-image: url("cat1.png");
+.car1 {
+    width: 72px;
+    height: 30px;
+    background-image: url("carriage2.png");
 position: relative;
-    -webkit-animation: stride 2s steps(4) infinite, slide 6s steps(12) 4;
-       -moz-animation: stride 2s steps(4) infinite, slide 6s steps(12) 4;
-        -ms-animation: stride 2s steps(4) infinite, slide 6s steps(12) 4;
-         -o-animation: stride 2s steps(4) infinite, slide 6s steps(12) 4;
-            animation: stride 2s steps(4) infinite, slide 6s steps(12) 4;
+    -webkit-animation: slide 60s steps(60) 4;
+       -moz-animation: slide 60s steps(60) 4;
+        -ms-animation: slide 60s steps(60) 4;
+         -o-animation: slide 60s steps(60) 4;
+            animation: slide 60s steps(60) 4;
 
-}
-
-
-@-webkit-keyframes stride {
-   from { background-position:    0px; }
-     to { background-position: -126px; }
-}
-@-moz-keyframes stride {
-   from { background-position:    0px; }
-     to { background-position: -126px; }
-}
-@-ms-keyframes stride {
-   from { background-position:    0px; }
-     to { background-position: -126px; }
-}
-@-o-keyframes stride {
-   from { background-position:    0px; }
-     to { background-position: -126px; }
-}
-@keyframes stride {
-   from { background-position:    0px; }
-     to { background-position: -126px; }
 }
 
 
 @-webkit-keyframes  slide {
-  from { top: 120px; left: 0; }
-  to   { top: 120px; left: 200px; }
+  0% { top: 450px; left: 420px; }
+  50%   { top: 300px; left: 175px; }
+ 100%   { top: 20px; left: 20px; }
 }
 @-moz-keyframes  slide {
-  from { top: 120px; left: 0; }
-  to   { top: 120px; left: 200px; }
+  0% { top: 450px; left: 420px; }
+  50%   { top: 300px; left: 175px; }
+ 100%   { top: 20px; left: 20px; }
 }
 @-ms-keyframes  slide {
-  from { top: 120px; left: 0; }
-  to   { top: 120px; left: 200px; }
+  0% { top: 450px; left: 420px; }
+  50%   { top: 300px; left: 175px; }
+ 100%   { top: 20px; left: 20px; }
 }
 @-o-keyframes  slide {
-  from { top: 120px; left: 0; }
-  to   { top: 120px; left: 200px; }
+  0% { top: 450px; left: 420px; }
+  50%   { top: 300px; left: 175px; }
+ 100%   { top: 20px; left: 20px; }
 }
 @keyframes  slide {
-  from { top: 120px; left: 0; }
-  to   { top: 120px; left: 200px; }
+  0% { top: 450px; left: 420px; }
+  50%   { top: 300px; left: 175px; }
+ 100%   { top: 20px; left: 20px; }
 }
 
 </style>
@@ -67,7 +50,7 @@ position: relative;
 
 <body>
 <br />
-<div class="cat1"></div>
+<div class="car1"></div>
 <img src="hadesmap.gif" width="600px" />
 <br />
 <br />
