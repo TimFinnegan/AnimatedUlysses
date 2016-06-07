@@ -5,40 +5,19 @@
     <title>Animated Ulysses ch2</title>
  <style>
 
-.cat1 {
-    width: 32px;
-    height: 32px;
-    background-image: url("cat1.png");
+.hat1 {
+    width: 18px;
+    height: 44px;
+    background-image: url("hat.png");
 position: relative;
-    -webkit-animation: stride 2s steps(4) infinite, slide 6s steps(12) 4;
-       -moz-animation: stride 2s steps(4) infinite, slide 6s steps(12) 4;
-        -ms-animation: stride 2s steps(4) infinite, slide 6s steps(12) 4;
-         -o-animation: stride 2s steps(4) infinite, slide 6s steps(12) 4;
-            animation: stride 2s steps(4) infinite, slide 6s steps(12) 4;
+    -webkit-animation:  slide 30s steps(20) 4;
+       -moz-animation: slide 30s steps(20) 4;
+        -ms-animation: slide 30s steps(20) 4;
+         -o-animation: slide 30s steps(20) 4;
+            animation: slide 30s steps(20) 4;
 
 }
 
-
-@-webkit-keyframes stride {
-   from { background-position:    0px; }
-     to { background-position: -126px; }
-}
-@-moz-keyframes stride {
-   from { background-position:    0px; }
-     to { background-position: -126px; }
-}
-@-ms-keyframes stride {
-   from { background-position:    0px; }
-     to { background-position: -126px; }
-}
-@-o-keyframes stride {
-   from { background-position:    0px; }
-     to { background-position: -126px; }
-}
-@keyframes stride {
-   from { background-position:    0px; }
-     to { background-position: -126px; }
-}
 
 
 @-webkit-keyframes  slide {
@@ -58,17 +37,24 @@ position: relative;
   to   { top: 120px; left: 200px; }
 }
 @keyframes  slide {
-  from { top: 120px; left: 0; }
-  to   { top: 120px; left: 200px; }
+    0%   {left:300px; top:30px;}
+    10%   {left:200px; top:30px;}
+    40%   {left:390px; top:30px;}
+    50%   {left:390px; top:130px;}
+    60%   {left:200px; top:130px;}
+    70%   {left:390px; top:130px;}
+    85%   {left:20px; top:130px;}
+    90%  {left:30px; top:300px;}
+    100% {left:580px; top:790px;}
 }
 
 </style>
 </head>
 
 <body>
-<br />
-<div class="cat1"></div>
+<div class="hat1"></div>
 <img src="tower.gif" width="600px" />
+<br />
 <br />
 <br />
 
