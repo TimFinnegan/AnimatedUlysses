@@ -5,16 +5,16 @@
     <title>Animated Ulysses ch8a</title>
  <style>
 
-.cat1 {
-    width: 32px;
-    height: 32px;
-    background-image: url("cat1.png");
+.bloom1 {
+    width: 21px;
+    height: 40px;
+    background-image: url("bloom1.png");
 position: relative;
-    -webkit-animation: stride 2s steps(4) infinite, slide 6s steps(12) 4;
-       -moz-animation: stride 2s steps(4) infinite, slide 6s steps(12) 4;
-        -ms-animation: stride 2s steps(4) infinite, slide 6s steps(12) 4;
-         -o-animation: stride 2s steps(4) infinite, slide 6s steps(12) 4;
-            animation: stride 2s steps(4) infinite, slide 6s steps(12) 4;
+    -webkit-animation: stride 2s steps(6) infinite, slide 6s steps(12) 4;
+       -moz-animation: stride 2s steps(6) infinite, slide 6s steps(12) 4;
+        -ms-animation: stride 2s steps(6) infinite, slide 6s steps(12) 4;
+         -o-animation: stride 2s steps(6) infinite, slide 6s steps(12) 4;
+            animation: stride 2s steps(6) infinite, slide 6s steps(12) 4;
 
 }
 
@@ -42,24 +42,29 @@ position: relative;
 
 
 @-webkit-keyframes  slide {
-  from { top: 120px; left: 0; }
-  to   { top: 120px; left: 200px; }
+    0%   {left:200px; top:120px;}
+    90%  {left:200px; top:1200px;}
+    100% {left:300px; top:1200px;}
 }
 @-moz-keyframes  slide {
-  from { top: 120px; left: 0; }
-  to   { top: 120px; left: 200px; }
+    0%   {left:200px; top:120px;}
+    90%  {left:200px; top:1200px;}
+    100% {left:300px; top:1200px;}
 }
 @-ms-keyframes  slide {
-  from { top: 120px; left: 0; }
-  to   { top: 120px; left: 200px; }
+    0%   {left:200px; top:120px;}
+    90%  {left:200px; top:1200px;}
+    100% {left:300px; top:1200px;}
 }
 @-o-keyframes  slide {
-  from { top: 120px; left: 0; }
-  to   { top: 120px; left: 200px; }
+    0%   {left:200px; top:120px;}
+    90%  {left:200px; top:1200px;}
+    100% {left:300px; top:1200px;}
 }
 @keyframes  slide {
-  from { top: 120px; left: 0; }
-  to   { top: 120px; left: 200px; }
+    0%   {left:200px; top:120px;}
+    90%  {left:200px; top:1200px;}
+    100% {left:300px; top:1200px;}
 }
 
 </style>
@@ -67,7 +72,7 @@ position: relative;
 
 <body>
 <br />
-<div class="cat1"></div>
+<div class="bloom1"></div>
 <img src="lestrygmap.gif" width="640px" />
 <br />
 <br />
