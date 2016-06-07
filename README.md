@@ -5,21 +5,21 @@ This project is an unexpected spinoff of a collection of platform-ideas for simu
 
 HTML5 has some commands that allow animated figures to move around background graphics, so it seems pretty simple to animate the basic paths of the main figures in Ulysses. Without using any javascript code, we should be able to evolve shared and/or customised animated illustrations.
 
-I'm not consistently syncing sheet3.html here with http://fwpages.neocities.org/sheet3.html (i use neocities instead of blogspot because editing the css is easier)
+I've created very rough firstdrafts of all pages, with individual lists of challenges to be handled. Volunteers are welcome, especially if you want to learn animation.
 
-- The backgrounds will try to offer accurate proportions, hopefully about 600px wide.
+- The backgrounds are mostly maps, but for interiors they'll try to offer accurate proportions, hopefully all about 600px wide. (Is this too narrow?)
 
-- Characters and objects believed to be within the background can be included even if the text hasn't mentioned them yet.
+- Characters and objects believed to be within the background can be included, even if the text hasn't mentioned them yet.
 
 - Character-animation should eventually be via 'sprite sheets'. (Bloom looks a lot like Mario, conveniently.) Early drafts may cheat and slide around still figures.
 
-- I don't think HTML5 conveniently allows one page per chapter, instead figure one page per scene: transitions between indoors and outdoors will normally require moving to a new page. Each page needs 'play/pause/start-over' buttons that start the (non-interactive) 'movie'.
+- Figure one html page per 'scene': transitions between indoors and outdoors require moving to a new page. Each page needs 'play/pause?/start-over' buttons that start the (non-interactive) 'movie'.
 
 - I'm expecting to figure out how to assign multiple characters multiple overlapping starting and finishing places and times. (If there are technical limits, we'll have to retreat to next-best workarounds.) 'Animation-delay' sets a starting time and 'animation-duration' calculates an ending time...? But every spritesheet has to be treated as completely separate/independent? And kept invisible before and after its bit?
 
-- But the 'alternate' modifier is useless because whenever our characters reverse direction they have to switch to a different spritesheet...
+- (The 'alternate' modifier is useless because whenever our characters reverse direction they have to switch to a different spritesheet...)
 
-- So each scene has to be broken down into a set of 'independent' subpaths for each character, which then run 'simultaneously'?
+- So each scene has to be broken down into a set of 'independent' subpaths for each character, which then run 'simultaneously'
 
 - Emojis may supplement character-animations, eg in the super-complex ch10.
 
@@ -65,6 +65,9 @@ I'm not consistently syncing sheet3.html here with http://fwpages.neocities.org/
 17: map-path then eccles again
 
 18
+
+the jamesjoyce.slack is available for discussions
+
 
 
 
