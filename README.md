@@ -7,6 +7,8 @@ HTML5 has some commands that allow animated figures to move around background gr
 
 I've created very rough firstdrafts of all pages, with individual lists of challenges to be handled. Volunteers are welcome, especially if you want to learn animation.
 
+Today's priorities: how many pixels equal six feet at each scale? stick in a simple bloom going straight from start to end of his path on each map. replace 'shelter.gif'; stickfigures for stephen et al
+
 - The backgrounds are mostly maps, but for interiors they'll try to offer accurate proportions, hopefully all about 600px wide. (Is this too narrow?)
 
 - Characters and objects believed to be within the background can be included, even if the text hasn't mentioned them yet.
@@ -16,6 +18,8 @@ I've created very rough firstdrafts of all pages, with individual lists of chall
 - Figure one html page per 'scene': transitions between indoors and outdoors require moving to a new page. Each page needs 'play/pause?/start-over' buttons that start the (non-interactive) 'movie'.
 
 - I'm expecting to figure out how to assign multiple characters multiple overlapping starting and finishing places and times. (If there are technical limits, we'll have to retreat to next-best workarounds.) 'Animation-delay' sets a starting time and 'animation-duration' calculates an ending time...? But every spritesheet has to be treated as completely separate/independent? And kept invisible before and after its bit?
+
+- can we use percents to break paths into subsegments?
 
 - (The 'alternate' modifier is useless because whenever our characters reverse direction they have to switch to a different spritesheet...)
 
