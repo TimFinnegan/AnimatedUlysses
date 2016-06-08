@@ -5,66 +5,91 @@
     <title>Animated Ulysses ch4a</title>
  <style>
 
-.bloom1 {
-    width: 21px;
-    height: 40px;
-    background-image: url("bloom1.png");
+.bloom3 {
+    width: 20px;
+    height: 33px;
+    background-image: url("bloom3.png");
 position: relative;
-    -webkit-animation: stride 2s steps(6) infinite, slide 6s steps(12) 4;
-       -moz-animation: stride 2s steps(6) infinite, slide 6s steps(12) 4;
-        -ms-animation: stride 2s steps(6) infinite, slide 6s steps(12) 4;
-         -o-animation: stride 2s steps(6) infinite, slide 6s steps(12) 4;
-            animation: stride 2s steps(6) infinite, slide 6s steps(12) 4;
+    -webkit-animation: stride 6s steps(6) infinite, slide 6s steps(12) 4;
+       -moz-animation: stride 6s steps(6) infinite, slide 6s steps(12) 4;
+        -ms-animation: stride 6s steps(6) infinite, slide 6s steps(12) 4;
+         -o-animation: stride 6s steps(6) infinite, slide 6s steps(12) 4;
+            animation: stride 6s steps(6) infinite, slide 6s steps(12) 4;
 
 }
 
 
 @-webkit-keyframes stride {
-   from { background-position:    0px; }
-     to { background-position: -126px; }
+    0%  { background-position:    0px; }
+    25%  { background-position:    -120px; }
+    50% { background-position:    0px; }
+    75%  { background-position:    -120px; }
+    100% { background-position:    -241px; }
 }
 @-moz-keyframes stride {
-   from { background-position:    0px; }
-     to { background-position: -126px; }
+    0%  { background-position:    0px; }
+    25%  { background-position:    -120px; }
+    50% { background-position:    0px; }
+    75%  { background-position:    -120px; }
+    100% { background-position:    -241px; }
 }
 @-ms-keyframes stride {
-   from { background-position:    0px; }
-     to { background-position: -126px; }
+    0%  { background-position:    0px; }
+    25%  { background-position:    -120px; }
+    50% { background-position:    0px; }
+    75%  { background-position:    -120px; }
+    100% { background-position:    -241px; }
 }
 @-o-keyframes stride {
-   from { background-position:    0px; }
-     to { background-position: -126px; }
+    0%  { background-position:    0px; }
+    25%  { background-position:    -120px; }
+    50% { background-position:    0px; }
+    75%  { background-position:    -120px; }
+    100% { background-position:    -241px; }
 }
 @keyframes stride {
-   from { background-position:    0px; }
-     to { background-position: -126px; }
+    0%  { background-position:    0px; }
+    25%  { background-position:    -120px; }
+    50% { background-position:    0px; }
+    75%  { background-position:    -120px; }
+    100% { background-position:    -241px; }
 }
 
 
 @-webkit-keyframes  slide {
-    0%   {left:200px; top:120px;}
-    50%  {left:100px; top:600px;}
-    100% {left:200px; top:120px;}
+    0%  { top: 175px; left: 248px; }
+    25%  { top: 268px; left: 386px; }
+    50% { top: 637px; left: 157px; }
+    75%  { top: 268px; left: 386px; }
+    100% { top: 175px; left: 248px; }
 }
 @-moz-keyframes  slide {
-    0%   {left:200px; top:120px;}
-    50%  {left:100px; top:600px;}
-    100% {left:200px; top:120px;}
+    0%  { top: 175px; left: 248px; }
+    25%  { top: 268px; left: 386px; }
+    50% { top: 637px; left: 157px; }
+    75%  { top: 268px; left: 386px; }
+    100% { top: 175px; left: 248px; }
 }
 @-ms-keyframes  slide {
-    0%   {left:200px; top:120px;}
-    50%  {left:100px; top:600px;}
-    100% {left:200px; top:120px;}
+    0%  { top: 175px; left: 248px; }
+    25%  { top: 268px; left: 386px; }
+    50% { top: 637px; left: 157px; }
+    75%  { top: 268px; left: 386px; }
+    100% { top: 175px; left: 248px; }
 }
 @-o-keyframes  slide {
-    0%   {left:200px; top:120px;}
-    50%  {left:100px; top:600px;}
-    100% {left:200px; top:120px;}
+    0%  { top: 175px; left: 248px; }
+    25%  { top: 268px; left: 386px; }
+    50% { top: 637px; left: 157px; }
+    75%  { top: 268px; left: 386px; }
+    100% { top: 175px; left: 248px; }
 }
 @keyframes  slide {
-    0%   {left:200px; top:120px;}
-    50%  {left:100px; top:600px;}
-    100% {left:200px; top:120px;}
+    0%  { top: 175px; left: 248px; }
+    25%  { top: 268px; left: 386px; }
+    50% { top: 637px; left: 157px; }
+    75%  { top: 268px; left: 386px; }
+    100% { top: 175px; left: 248px; }
 }
 
 
@@ -73,7 +98,7 @@ position: relative;
 
 <body>
 <br />
-<div class="bloom1"></div>
+<div class="bloom3"></div>
 <img src="calypsomap.gif" width="600px" />
 <br />
 <br />
