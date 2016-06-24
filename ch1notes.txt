@@ -1,0 +1,120 @@
+bm a, sd b, h b, mw c/d
+bm 100-80
+sd a 100, bm 80-60 a+
+
+bm 65 a
+bm 30
+sd 50
+
+bm 50
+bm 30
+sd 32
+sd31
+sd32
+bm sd 30-0-100
+sd 99
+bm 100-30
+
+
+bm b
+
+
+bm a
+
+bm b
+
+sd 30
+sd b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mw c
+
+
+
+
+
+
+
+
+
+mw b
+
+
+
+
+
+
+
+
+
+
+
+
+mw c
+
+
+
+
+
+
+
+
+
+bm c, sd c, h c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bm    sd    h
+mulligan at stairhead
+mulligan forward
+mulligan looks down stairs
+mulligan to gunrest
+mulligan mounts gunrest
+stephen appears
+mulligan performs
+mulligan jumps down toward stephen
+mulligan to parapet
+stephen to gunrest
+mulligan performs
+mulligan to stephen
+mulligan to parapet
+
+stephen to mulligan
+
+mulligan links stephen
+both left-to-right
+
+
